@@ -1,0 +1,88 @@
+[27-Oct-2022 13:38:13 UTC] PHP Warning:  Undefined variable $request_data in /home/makffkkr/elab.ae/wp-content/plugins/insert-product/api/update_products.php on line 26
+[27-Oct-2022 13:38:13 UTC] PHP Warning:  Attempt to read property "post_id" on null in /home/makffkkr/elab.ae/wp-content/plugins/insert-product/api/update_products.php on line 26
+[06-Nov-2022 12:39:00 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/makffkkr/elab.ae/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[06-Nov-2022 12:39:00 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/makffkkr/elab.ae/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 82
+[20-Mar-2023 11:57:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[20-Mar-2023 12:03:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[20-Mar-2023 12:07:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[20-Mar-2023 12:15:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[20-Mar-2023 13:19:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[20-Mar-2023 13:21:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[20-Mar-2023 19:39:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 50
+[29-Mar-2023 11:10:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:17:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 50
+[29-Mar-2023 11:20:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 50
+[29-Mar-2023 11:22:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:23:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:24:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:24:51 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1349, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:25:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:25:15 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1352, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:25:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:26:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:26:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:27:37 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1358, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:28:59 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1360, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:41:19 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1353, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:41:57 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1357, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:45:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:46:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:46:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:46:56 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1369, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 11:47:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:47:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:47:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 11:48:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 12:20:22 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php:39
+Stack trace:
+#0 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(39): implode(',', Array)
+#1 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(129): requestData->upload_all_images_to_product(1378, Array)
+#2 /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php(168): requestData->insert()
+#3 {main}
+  thrown in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 39
+[29-Mar-2023 12:46:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 12:46:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 12:46:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
+[29-Mar-2023 13:22:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/bahjatshawwa/public_html/wp-content/plugins/insert-product/api/insert_product_to_db.php on line 47
